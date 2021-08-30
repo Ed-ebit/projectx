@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Technik</title>
+    <style>
+        /*Smartphones und kleine Monitpore*/
+        h1 {
+            color: brown;
+            font-size: 1.5rem;
+        }
+
+        .tablet,
+        .desktop{
+            display: none;
+        }
+
+        /*Display ab 426px Breite*/
+        @media screen and (min-width: 426px) {
+            h1{
+                color: darkgoldenrod;
+                font-size: 3rem;
+            }
+            /* Absatz für Tablets einblenden*/
+            .tablet {
+                display: block;
+            }
+
+            /*Absatz für Smartphones ausblenden*/
+            .smartphone {
+                display:none;
+            }
+        }
+                /*Display ab 769px Breite*/
+                @media screen and (min-width: 769px) {
+            h1{
+                color: cadetblue;
+                font-size: 5rem;
+            }
+            /* Absatz für Desktops einblenden*/
+            .desktop {
+                display: block;
+            }
+
+            /*Absatz für Tablets ausblenden*/
+            .tablet {
+                display:none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Responsive Technik</h1>
+
+    <p class="smartphone">Dieser Text wird nur auf einem Smartphone zu sehen sein.</p>
+
+    <p class="tablet">Dieser Text wird nur auf einem Tablet zu sehen sein.</p>
+
+    <p class="desktop">Dieser Text wird nur auf einem großen Monitor zu sehen sein.</p>
+</body>
+</html>

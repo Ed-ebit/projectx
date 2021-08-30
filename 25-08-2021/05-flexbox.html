@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*Grundsätzliche Einstellungen*/
+        body, h2{
+            font-family: sans-serif;
+            font-size: 16px;
+            font-weight: normal;
+            margin: 0;
+        }
+
+        .flexcontainer {
+            border: 1px solid gray;
+            padding: 4px;
+            margin-bottom: 5px;
+            width: 600px;
+        }
+
+        .flexitem {
+            background-color: chocolate;
+            margin-bottom: 5px;
+            padding: 10px;
+        }
+
+        /*Flexbox*/
+        .flexcontainer{
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flexbox Beispiel</h1>
+
+    <div class="flexcontainer">
+        <div class="flexitem">Item 1</div>
+        <div class="flexitem">Item 2<br>Text</div>
+        <div class="flexitem">Item 3</div>
+        <div class="flexitem">Item 4</div>
+        <div class="flexitem">Item 5</div>
+    </div>
+    
+    <div class="flexcontainer">
+        <p class="flexitem">Item 1</p>
+        <div class="flexitem">Item 2<br>Text</div>
+        <p class="flexitem">Item 3</p>
+        <h2 class="flexitem">Item 4</h2>
+        <div class="flexitem">Item 5</div>
+    </div>
+</body>
+</html>

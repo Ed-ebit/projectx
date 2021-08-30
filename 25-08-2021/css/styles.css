@@ -1,0 +1,76 @@
+/* Normalisierung. Gilt für alle Elemente via *, dem Universalselektor, aber das verstehen nicht alle Browser, daher zus. nomma 'html' angegeben*/
+html, * {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    font-style: 16px;
+    height: 200vh;
+}
+
+.wrapper {
+    width: 768px;
+    padding: 50px 0;
+    margin: 0 auto;
+}
+
+/*Navigation*/
+
+nav {
+    width: 500px;
+    margin-left: auto;
+    position: fixed;
+    right: 0;
+    top: 0.8rem;
+}
+
+nav > ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+nav > ul > li >a {
+    text-decoration:none;
+    color: white;
+    padding: 0.8rem;
+
+}
+
+/* Header */
+header {
+    background: #3f3e3c url("../images/header-background.jpg") no-repeat center center;
+    color: rgb(189, 188, 121);
+    padding: 40px 0;
+    text-align: center;
+    height: 350px;
+    background-size: cover;
+}
+/*header h1 meint, dass die Formatierung nur für H1en gilt, die sich im Header befinden*/
+header h1 {
+    font-style: 2m;
+    margin: 1rem 0 1.5rem;
+}
+
+header h2{
+    font-style: 1.5rem;
+    font-style: italic;
+}
+
+header a {
+    display: inline-block;
+    color: #333;
+    background: #fed136;
+    padding: 0.8em;
+    border-radius: 5px;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+header a:hover {
+    background-color: #f3c933;
+}

@@ -1,0 +1,141 @@
+html, *{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: sans-serif, Arial, Helvetica;
+}
+
+body {
+    font-style: 16px;
+    background-color: lightgray;
+}
+
+.wrapper {
+    width: 768px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+}
+
+/*Navigation*/
+
+nav {
+    width: 100%;
+    margin-left: auto;
+    position: fixed;
+    right: 0;
+    top: 0.9rem;
+    padding-bottom: 10px;
+}
+
+nav > ul {
+    display: flex;
+    width: 93%;
+    list-style: none;
+    justify-content: space-around;
+}
+
+nav > ul >li >a {
+    text-decoration: none;
+    color: white;
+    padding: 0.8rem;
+}
+
+nav > ul > li:first-child{
+    margin-left: 7%;
+    margin-right: auto;
+    font-style: italic;
+}
+
+.gold {
+    color: gold;
+    font-size: 18px;
+}
+
+
+/*Header*/
+
+header {
+    background: #3f3e3c url("images/header-background.jpg") no-repeat center center;
+    color: whitesmoke;
+    padding: 40px 0;
+    text-align: center;
+    height: 350px;
+    background-size: cover;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 1rem 0 1.5rem;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+header a {
+    display: inline-block;
+    color: #333;
+    background: #fed136;
+    padding: 0.8rem;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+header a:hover {
+    background-color: #ceab2d;
+}
+
+/*Main*/
+
+
+
+i {
+    
+    line height: 48px;
+    font-size: 32px;
+    color: yellow;
+    height: 48px;
+    width: 48px;
+    border: 2px solid;
+    margin: 15px;
+    
+    border-radius: 50%;
+    
+}
+
+
+
+.dreier {
+
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 35px;
+    
+    
+}
+.dreier:first-child {
+    background-color: #fff;
+}
+.dreier figcaption {
+    color: gray;
+    font-style: italic;
+    font-size: 0.8rem;
+}
+.titel {
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    
+}
+.titel:first-child {
+    background-color: #fff;
+}
+
+.titel p {
+        color: gray;
+        font-style: italic;
+       
+}
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innenabstand, Rahmen und Überlauf</title>
+    <style>
+        div {
+            background-color: #ed9c53;
+            padding: 10px;
+            border-left: 10px solid #666;
+        }
+        #unten, #ganzunten {
+            margin-top: 20px;
+        }
+
+        #unten {
+            width: 200px;
+            height: 200px;
+        }
+
+        #unten > div {
+            background-color: #fff;
+            height: 180px;
+            overflow-y: scroll;
+        }
+
+        #ganzunten {
+            width: 100px;
+            height: 100px;
+            overflow: auto;
+            border-radius: 50%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Innenabstand, Rahmen und Überlauf</h1>
+
+    <!--
+        Emmet-Code für unten stehendes Markup: 
+        (div>lorem)+(#unten>div>lorem)+#ganzunten>lorem 
+    -->
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis labore iusto, quia quos, nulla mollitia quas aspernatur, modi alias id excepturi est! Ab tempora quaerat alias id delectus cupiditate saepe.</div>
+
+    <div id="unten">
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis labore iusto, quia quos, nulla mollitia quas aspernatur, modi alias id excepturi est! Ab tempora quaerat alias id delectus cupiditate saepe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis labore iusto, quia quos, nulla mollitia quas aspernatur, modi alias id excepturi est! Ab tempora quaerat alias id delectus cupiditate saepe.</div>
+    </div>
+
+    <div id="ganzunten">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto ab, sunt consequatur inventore quo voluptates possimus sint nemo recusandae rem, sapiente eius quam maiores eum modi, exercitationem mollitia dolor. Harum. Architecto ab, sunt consequatur inventore quo voluptates possimus sint nemo recusandae rem, sapiente eius quam maiores eum modi, exercitationem mollitia dolor. Harum.</div>
+</body>
+</html>

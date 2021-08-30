@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="icons/solid.min.css">
+    <style>
+        /*Variante 1: selektieren nach dem Target-Attribut. 
+        D.h. ich selektiere einen Bereich hinter (after) einem Link (a), der das Attribut target besitzt*/
+        a[target]::after{
+            font-family: "Font Awesome 5 Free";
+            content: " \f35d";
+        }
+        /*Variante 2: selektieren nach https
+        Selektiere einen Bereich hinter einem Link, desssen Wert des Attributes href mit https beginnt.*/
+        a[href^=https]::after {
+            font-family: "Font Awesome 5 Free";
+            content: " \f35d";
+         }
+    </style>
+</head>
+<body>
+    <h1>Externe Hyperlinks mit Icons kennzeichnen</h1>
+    <p><a href="https://google.de">Google</a></p>
+    <p><a href="01-schriften-cdn.html">Schriften per CDN einbetten</a></p>
+
+    <p><a href="https://www.iad.de" target="_blank">IAD</a></p>
+</body>
+</html>

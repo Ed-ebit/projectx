@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <style>
+        .feld{
+            textarea cols="20" rows="5"
+            
+        }
+    </style>
+</head>
+<body>
+    <img src="pic.png">
+    <h1 id="oben">Kontakt</h1>
+
+    <div>
+        <h2>Fragen? Anregungen? Kontaktieren Sie uns!</h2>
+        <h4>leider benötigen wir hierzu all Ihre Daten >:D</h4>
+        <adress>
+            Marta Manika <br>
+            Stahlweg 42<br>
+            98765 Eisenhüttenstadt
+        </adress>
+        <p>Tel: 01234/567890 </p>
+    </div>
+    <div>
+        <p>Mit folgendem Formular können Sie uns kontaktieren:</p>
+
+        <form action="https://test.jaderbass.de/formtester.php" methos="post">
+            <label>Ihr Vorname:
+                <input type="text" name="vname" id="vname">
+            </label> <br>
+            <label>Ihr Nachname:
+                <input type="text" name="nname" id="nname">
+            </label> <br>
+            <label>Ihre e-Mail:
+                <input type="email" name="mail" id="mail">
+            </label> <br>
+            <label>Ihre Nachricht:</label><br>
+                <textarea name="message" id="message" cols="25" rows="12"></textarea><br>
+            <input type="submit" value="Abschicken">
+
+        </form>
+
+        <p>
+            <a href="#oben">Zum Seitenanfang</a>
+        </p>
+
+    </div>
+    
+</body>
+</html>
