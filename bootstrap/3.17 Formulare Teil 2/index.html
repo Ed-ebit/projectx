@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- Eigene CSS-Regeln -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Formular-Größen und Eingabegruppen</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Formular-Größen und Eingabegruppen</h1>
+
+        <h2>Formular-Größen</h2>
+
+        <div class="row">
+            <div class="col"></div>
+                <h4>Beispiele</h4>
+
+                <div class="form-group">
+                    <label for="klein">Klein</label>
+                    <input type="text" class="form-control form-control-sm" id="klein">
+                </div>
+            <div class="col">
+                <div class="form-group">
+                    <label for="standard">Standard</label>
+                    <input type="text" class="form-control" id="standard">
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <label for="groß">Groß</label>
+                    <input type="text" class="form-control form-control-lg" id="groß">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <h2>Eingabegruppen</h2>
+            <div class="col">
+                <h4>Beispiele</h4>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text">
+                        &copy;
+                    </span>
+                    <input type="text" class="form-control" placeholder="Name">
+                </div>
+
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Name">
+                    <span class="input-group-text">&copy;</span>   
+                </div>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text">Zahlung</span>   
+                    <input type="text" class="form-control" placeholder="Betrag">
+                    <span class="input-group-text">&euro;</span>
+                </div>
+            </div>
+            <div class="col">
+                <h4>Größen</h4>
+
+                <div class="input-group input-group-sm mb-3">
+                    <span class="input-group-text bg-warning">&copy;
+                    </span>
+                    <input type="text" class="form-control">
+                </div>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text bg-success">&copy;
+                    </span>
+                    <input type="text" class="form-control">
+                </div>
+
+                <div class="input-group input-group-lg mb-3">
+                    <span class="input-group-text bg-danger">&copy;
+                    </span>
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <h4>Mit Button</h4>
+
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Button">
+                    <button class="btn btn-success">&rarr;</button>
+                </div>
+
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Button">
+                </div>
+
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Button">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript; -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>
