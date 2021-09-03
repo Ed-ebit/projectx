@@ -1,0 +1,11 @@
+flexboxhilfe
+https://flexboxfroggy.com/#de
+http://madebymike.com.au/demos/flexbox-tester/
+https://css-tricks.com/
+
+Bilder ins Netz stellen
+https://compressjpg.com
+
+html prüfen
+https://validator.w3.org/
+https://jigsaw.w3.org/css-validator/
