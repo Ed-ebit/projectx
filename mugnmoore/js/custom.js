@@ -31,3 +31,11 @@ $(document).ready(function(){
     });
 });
 /* Ende Smooth Scroll */
+
+/* Start aktuelle Jahreszahl */
+var aktuellesJahr = (new Date).getFullYear();
+$(document).ready(function(){
+    $('#jahr').text(aktuellesJahr);
+    $('#jahr > time').attr('datetime', aktuellesJahr);
+});
+/* Ende aktuelle Jahreszahl */
