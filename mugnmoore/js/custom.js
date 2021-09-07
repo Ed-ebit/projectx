@@ -39,3 +39,12 @@ $(document).ready(function(){
     $('#jahr > time').attr('datetime', aktuellesJahr);
 });
 /* Ende aktuelle Jahreszahl */
+
+/* Start AOS */
+AOS.init({
+    duration: 800,
+    easing: 'ease-out',
+    offset: 300,
+    disable: 'mobile'
+});
+/* Ende AOS */

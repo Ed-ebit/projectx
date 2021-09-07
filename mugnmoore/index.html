@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mug &amp; More</title>
 
+    <!-- Favicon (Anzeige im Tab) -->
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <!-- CSS -->
 
     <!-- Bootstrap -->
@@ -16,13 +19,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
 
+    <!-- Aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- Simple Line Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Custom -->
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<!-- data-Attribute für Scrollspy -->
+<body data-bs-spy="scroll" data-bs-target="#navbarCollapse">
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
             <div class="container">
@@ -69,7 +76,7 @@
         <div class="container">
             <div class="row justify-content-end align-items-center">
                 <div class="col-md-5">
-                    <h1 class="text-danger mb-4">Hier schmeckt die Bohne</h1>
+                    <h1 data-aos="fade-up" class="text-danger mb-4">Hier schmeckt die Bohne</h1>
                     <p class="lead text-white">Überall dieselbe alte Leier. Der Text lässt auf sich warten.</p>
                     <a href="#ueberuns" class="btn btn-outline-danger btn-round btn-lg-mt-2"><small><span class="icon-arrow-down-circle pe-2"></span></small>Erlebnis starten
                     </a>
@@ -86,12 +93,12 @@
     <!-- Start Über Uns -->
     <section id="ueberuns" class="position-relative">
         <div class="img-bg d-none d-lg-inline">
-            <img src="img/ueber-uns.jpg" alt="Das sind Wir!" class="img-fluid">
+            <img data-aos="fade-left" src="img/ueber-uns.jpg" alt="Das sind Wir!" class="img-fluid">
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
-                    <h1 class="text-danger mb-4">Lerne uns kennen</h1>
+                <div data-aos="fade-right" class="col-lg-6">
+                    <h1 data-aos="fade-up" class="text-danger mb-4">Lerne uns kennen</h1>
                     <p>Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten. Damit das Layout nun nicht nackt im Raume steht und sich klein und leer vorkommt, springe ich ein: der Blindtext.</p>
                     <p>Genau zu diesem Zwecke erschaffen, immer im Schatten meines großen Bruders »Lorem Ipsum«, freue ich mich jedes Mal, wenn Sie ein paar Zeilen lesen. Denn esse est percipi - Sein ist wahrgenommen werden.</p>
                     <p>Und weil Sie nun schon die Güte haben, mich ein paar weitere Sätze lang zu begleiten, möchte ich diese Gelegenheit nutzen, Ihnen nicht nur als Lückenfüller zu dienen, sondern auf etwas hinzuweisen, das es ebenso verdient wahrgenommen zu werden: Webstandards nämamalich. Sehen Sie, Webstandards sind das Regelwerk, auf dem Webseiten aufbauen.</p>
@@ -112,23 +119,23 @@
         <div class="container">
             <div class="row justify-content-center mb-5">
                 <div class="col-md-8 text-center">
-                    <h1 class="text-danger mb-4">Ohne Bohne - Kein Kaffee</h1>
+                    <h1 data-aos="fade-up"class="text-danger mb-4">Ohne Bohne - Kein Kaffee</h1>
                     <p class="text-white">Es gibt im Moment in diese Mannschaft, oh, einige Spieler vergessen ihnen Profi was sie sind.</p>
                 </div>
             </div>
 
             <div class="row justify-content-between">
-                <div class="col-md text-center mx-5 me-md-0 me-lg-3 mb-5 mb-md-auto">
+                <div data-aos="fade-right" class="col-md text-center mx-5 me-md-0 me-lg-3 mb-5 mb-md-auto">
                     <img src="img/arabica.jpg" alt="Arabica Bohne" class="img-fluid mb-4 rounded-circle">
                     <h3 class="text-danger mb-3">Arabica</h3>
                     <p class="text-white px-4">Es gibt im Moment in diese Mannschaft, oh, einige Spieler vergessen ihnen Profi was sie sind.</p>
                 </div>
-                <div class="col-md text-center mx-5 me-md-0 me-lg-3 mb-5 mb-md-auto">
+                <div data-aos="fade-up" class="col-md text-center mx-5 me-md-0 me-lg-3 mb-5 mb-md-auto">
                     <img src="img/robusta.jpg" alt="Robusta Bohne" class="img-fluid mb-4 rounded-circle">
                     <h3 class="text-danger mb-3">Robusta</h3>
                     <p class="text-white px-4">Es gibt im Moment in diese Mannschaft, oh, einige Spieler vergessen ihnen Profi was sie sind.</p>
                 </div>
-                <div class="col-md text-center mx-5 me-md-0 me-lg-3">
+                <div data-aos="fade-left" class="col-md text-center mx-5 me-md-0 me-lg-3">
                     <img src="img/blue-mountain.jpg" alt="Blue Mountain Bohne" class="img-fluid mb-4 rounded-circle">
                     <h3 class="text-danger mb-3">Jamaica Blue Mountain</h3>
                     <p class="text-white px-4">Es gibt im Moment in diese Mannschaft, oh, einige Spieler vergessen ihnen Profi was sie sind.</p>
@@ -148,12 +155,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-md12 text-center">
-                    <h1 class="text-danger">Unsere besten Kaffees</h1>
+                    <h1 data-aos="fade-up" data-aos="fade-up" class="text-danger mb-4">Unsere besten Kaffees</h1>
                 </div>
             </div>
             <div class="row row-cols-1 row-cols-lg-3 g-4">
                 <div class="col">
-                    <div class="card mb-5 mb-sm-2">
+                    <div data-aos="fade-up" class="card mb-5 mb-sm-2">
                         <img src="img/produkt-premium-3.jpg" alt="Geilste Stuff" class="card-img-top">
                         <div class="card-body">
                             <h3 class="text-danger card-title">Premium
@@ -170,7 +177,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card mb-5 mb-sm-2">
+                    <div data-aos="fade-up" class="card mb-5 mb-sm-2">
                         <img src="img/produkt-premium-2.jpg" alt="Geilste Stuff" class="card-img-top">
                         <div class="card-body">
                             <h3 class="text-danger card-title">Premium
@@ -186,7 +193,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card mb-5 mb-sm-2">
+                    <div data-aos="fade-up" class="card mb-5 mb-sm-2">
                         <img src="img/produkt-premium-1.jpg" alt="Geilste Stuff" class="card-img-top">
                         <div class="card-body">
                             <h3 class="text-danger card-title">Premium
@@ -201,7 +208,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div data-aos="fade-up" class="card">
                         <img src="img/produkt-gold.jpg" alt="Geilste Stuff" class="card-img-top">
                         <div class="card-body">
                             <h3 class="text-warning card-title" style="color:#ffd700">Gold
@@ -215,7 +222,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div data-aos="fade-up" class="card">
                         <img src="img/produkt-silver.jpg" alt="Geilste Stuff" class="card-img-top">
                         <div class="card-body">
                             <h3 class="card-title" style="color:#949393">Silber
@@ -229,7 +236,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div data-aos="fade-up" class="card">
                         <img src="img/produkt-bronze.jpg" alt="Geilste Stuff" class="card-img-top">
                         <div class="card-body">
                             <h3 class="card-title" style="color:#af765d" >Bronze
@@ -255,7 +262,7 @@
             <div class="bg-overlay"></div>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-10">
+                    <div data-aos="fade-down" class="col-md-10">
                         <h1 class="text-center text-danger m-5">Was denkt ihr über uns?</h1>
                         <!-- Start Bootstrap-Slider -->
 
@@ -315,41 +322,41 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center">
-                        <h1 class="text-danger">Impressionen</h1>
+                        <h1 data-aos="fade-down" class="text-danger mb-4">Impressionen</h1>
                     </div>
                 </div>
                 <div class="row g-0" data-masonry='{"percentPosition": true }'>
-                    <div class="col-sm-6 col-md-4">
+                    <div data-aos="fade-up"class="col-sm-6 col-md-4">
                         <div class="card">
                             <img src="img/gallery-01.jpg" alt="Frau trinkt Kaffee">
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div data-aos="fade-left"class="col-sm-6 col-md-4">
                         <div class="card">
                             <img src="img/gallery-06.jpg" alt="Churros">
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div data-aos="fade-down"class="col-sm-6 col-md-4">
                         <div class="card">
                             <img src="img/gallery-04.jpg" alt="Kuchen">
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div data-aos="fade-right"class="col-sm-6 col-md-4">
                         <div class="card">
                             <img src="img/gallery-02.jpg" alt="Kaffeemaschine">
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div data-aos="fade-down"class="col-sm-6 col-md-4">
                         <div class="card">
                             <img src="img/gallery-05.jpg" alt="Kaffee mit Milchschaum">
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div data-aos="fade-right" class="col-sm-6 col-md-4">
                         <div class="card">
                             <img src="img/gallery-03.jpg" alt="Eiskaffee mit Deko">
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div data-aos="fade-up" data-aos-offset="-500" class="col-sm-6 col-md-4">
                         <div class="card">
                             <img src="img/gallery-07.jpg" alt="Eiskaffee mit Deko">
                         </div>
@@ -365,7 +372,7 @@
     <!-- Start Newsletter -->
         <section id="newsletter" class="newsletter-bg position-relative">
             <div class="bg-overlay"></div>
-            <div class="container">
+            <div data-aos="zoom-in-up" data-aos-offset="-340" class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-10 text-center">
                         <p class="lead text-white mb-5">
@@ -385,9 +392,9 @@
 
     <div id="newsletter-modal" class="modal" tabindex="-1">
         <div class="modal-dialog modal-lg">
-          <div class="modal-content">
+          <div data-aos="zoom-in" class="modal-content">
             <div class="modal-header mb-4">
-              <h1 class="modal-title ms-3">Newsletteranmeldung</h1>
+              <h1 class="modal-title text-danger ms-3">Newsletteranmeldung</h1>
               <button type="button" class="btn-close me-3" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -430,17 +437,17 @@
         <div class="container">
             <div class="row mb-5">
                 <div class="col-md-12 text-center">
-                    <h1 class="text-danger">Schön von euch zu lesen.</h1>
+                    <h1 data-aos="fade-up" data-aos-offset="-340" class="text-danger mb-4">Schön von euch zu lesen.</h1>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6 mb-4 pe-md-4 ps-md-5">
+                <div data-aos="fade-right" data-aos-offset="-340" class="col-md-6 mb-4 pe-md-4 ps-md-5">
                     <div class="input-group input-group-lg">
                         <textarea name="nachricht" rows="6" class="form-control" placeholder="Nachricht"></textarea>
                     </div>
 
                 </div>
-                <div class="col-md-6 pe-md-5 ps-md-4">
+                <div data-aos="fade-left" data-aos-offset="-340" class="col-md-6 pe-md-5 ps-md-4">
                     <div class="input-group input-group-lg mb-4">
                         <span class="icon-user input-group-text bg-danger text-white"></span>
                         <input type="text" class="form-control" placeholder="Vollständiger Name">
@@ -504,6 +511,10 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- JS für AOS -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- Custom Javascript -->
 

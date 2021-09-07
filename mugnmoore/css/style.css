@@ -1,5 +1,10 @@
 /* === Allgemein === */
 
+/*Voraussetzung für Scrollspy */
+body{
+    position: relative;
+}
+
 /* Schriften */
 body,
 p{
@@ -49,6 +54,25 @@ section {
     height: 80%;
 }
 
+/* === Bild Hover === */
+
+#produkte .card img,
+#impressionen img,
+#bohne img {
+    -webkit-filter: grayscale(60%);
+            filter: grayscale(60%);
+    transition: -webkit-filter 0.3s;
+    transition: filter 0.3s;
+    transition: filter 0.3s, -webkit-filter 0.3s;
+}
+
+#produkte .card:hover img,
+#impressionen img:hover,
+#bohne img:hover {
+    -webkit-filter: none;
+            filter: none;
+}
+
 /* === Navigation === */
 
 nav {
@@ -86,6 +110,9 @@ nav.navbar.navbar-dark .nav-link:hover {
     border-color: rgba(51, 51, 51, 0.6);
 }
 
+.navbar .navbar-nav .nav-link.active {
+    color: #dc3545;
+}
 
 /* === Hero === */
 
@@ -120,6 +147,14 @@ nav.navbar.navbar-dark .nav-link:hover {
     position: relative;
 }
 
+/* === Produkte ===*/
+#produkte button {
+    box-shadow: none;
+}
+#produkte button:hover {
+    box-shadow: 0 0 50px 20px gold;
+    transition: box-shadow 0.3s;
+}
 /* === Testimonials ==*/
 
 .testimonials-bg {
