@@ -4,7 +4,7 @@ http://madebymike.com.au/demos/flexbox-tester/
 https://css-tricks.com/
 
 Bilder ins Netz stellen
-https://compressjpg.com
+https://compressjpeg.com
 
 html prüfen
 https://validator.w3.org/

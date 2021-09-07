@@ -17,6 +17,9 @@
     <!-- Simple Line Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- Simple Line Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- Custom -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -24,40 +27,55 @@
 
 <body>
     <header>
-        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav nav flex-column">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown link
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+        <!-- Navigation
+        ============================================================================================= -->
 
-        </nav>
+    <!-- Navigation Start -->
+    <div class="side-navbar active-nav d-flex justify-content-between flex-wrap flex-column" id="sidebar">
+        <ul class="nav flex-column text-white w-100">
+            <li>
+                <a class="navbar-brand text-white nav-link" href="#">FelixR4President</a>
+            </li>
+            <li class="nav-item">                
+                <a class="nav-link active" aria-current="page" href="#">Wer ist das?</a>
+            </li>
+            <li href="#" class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+            </li>
+            <li href="#" class="nav-item">
+                <a class="nav-link" href="#">Zitate</a>
+            </li>
+            <li href="#" class="nav-item">
+                <a class="nav-link" href="#">Eure Meinung</a>
+            </li>
+            <li href="#" class="nav-item">
+                <a class="nav-link" href="#">Kontakt</a>
+            </li>
+            <li href="#" class="nav-item">
+                <a class="nav-link" href="#">Impressum</a>
+            </li>
+        </ul>
+    </div>
+
+
+
+        <!-- Navigation Ende -->
     </header>
+
+    <!-- Sidebar Toggler
+    ============================================================================================= -->
     
+    <!-- Start Sidebar Toggler -->
+    <a href="#" class="btn btn-round smooth" id="menu-btn"><span class="icon-arrow-up"></span></a>
+    <!-- Ende Sidebar Toggler -->
+
+    <!-- Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+
+    <!-- Custom Javascript -->
+
+    <script src="js/custom.js"></script>
 </body>
 </html>
