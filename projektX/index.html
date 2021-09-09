@@ -180,7 +180,7 @@
             <div class="row text-center">
                 <h1>Seine wichtigsten Zitate</h1>
             </div>
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="15000">
+            <div class="carousel slide" data-bs-ride="carousel" data-bs-interval="15000">
                 <div class="carousel-inner" > 
                   <div class="carousel-item active">
                     <img class="d-block w-100" src="img/dark-man.jpg" alt="dark man">
@@ -192,8 +192,8 @@
                   <div class="carousel-item">
                     <img class="d-block w-100" src="img/man-face.jpg" alt="aufregen">
                     <div class="carousel-caption">
-                        <h5>"Das regt mich schon wieder alles auf hier!"</h5>
-                        <p>- weiß wann gehandelt werden muss</p>
+                        <h5>"Das regt mich schon wieder alles auf!"</h5>
+                        <p>- weiß, wann gehandelt werden muss</p>
                     </div>  
                   </div>
                   <div class="carousel-item">
@@ -215,24 +215,110 @@
 
     <!-- Start Eure Meinung -->
         <section class="position-relative my-container active-cont">
-            <div class="row text-center container-fluid">
+            <div class="text-center container-fluid">
                 <h1>Eure Meinung über Felix</h1>
-
-                <div class="carousel slide" data-bs-ride="carousel" data-bs-interval="15000">
-                    <div class="carousel-inner" > 
-                      <div class="carousel-item active">
-                        <div class="text-carousel"></div>
-                        <div class="carousel-caption">
-                          <h5>"Witcher 3 ist überbewertet."</h5>
-                          <p>"...die Steuerung ist klunky af für einen Triple-A-Titel"</p>
-                        </div>              
-                      </div>
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-interval="20000" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 3"></button>
                     </div>
-                </div>
+                    <div id="meinung-inner" class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/writing.jpg" class="d-block w-100" alt="writing">
+                            <div class="carousel-caption d-md-block">
+                            <h5 class="h3-md mt-md-4">Ich habe ihn noch nie getroffen und er hat mich noch nie genervt!</h5>
+                            <p class="mt-md-4">...und deshalb sollte FelixR Weltpräsident werden!</p>
+                            <p class="text-muted">Sarah H., Göttingen</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/writing.jpg" class="d-block w-100" alt="writing">
+                            <div class="carousel-caption d-md-block">
+                            <h3 class="mt-md-4">Da er gut mit seiner Aufmerksamkeitsspanne haushaltet, wird es sicher nicht zu viele unnötige Gesetze geben.</h3>
+                            <p class="mt-md-4">...und deshalb sollte FelixR Weltpräsident werden!</p>
+                            <p class="text-muted">Bernd G., Paris</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/writing.jpg" class="d-block w-100" alt="writing">
+                            <div class="carousel-caption d-md-block">
+                            <h3 class="mt-md-4">Seine Einsichten in die Welt des Gamings würden die Entertainmentbranche in die Zukunft katapultieren!</h3>
+                            <p class="mt-md-4">...und deshalb sollte FelixR Weltpräsident werden!</p>
+                            <p class="text-muted">Petra X., Madrid</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/writing.jpg" class="d-block w-100" alt="writing">
+                            <div class="carousel-caption d-md-block">
+                                <h3 class="mt-md-4">Er is beschte Lebbe!</h3>
+                                <p class="mt-md-4">...und deshalb sollte FelixR Weltpräsident werden!</p>
+                                <p class="text-muted">Hugo I., Wiesbaden</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/writing.jpg" class="d-block w-100" alt="writing">
+                            <div class="carousel-caption d-md-block">
+                                <h3 class="mt-md-4">Zielstrebig, bescheiden, unser Mann für den Job!</h3>
+                                <p class="mt-md-4">...und deshalb sollte FelixR Weltpräsident werden!</p>
+                                <p class="text-muted">Mark B., Simbabwe</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
             </div>
-
         </section>
     <!-- Ende Eure Meinung -->
+
+    <!-- Kontakt
+    ============================================================================================= -->
+
+    <!-- Start kontakt -->
+    <section class="position-relative my-container active-cont">
+        <div class="container-fluid">
+            <div class="row mb-5 text-center">
+                    <h1 class="">Sagt uns eure Meinung!</h1>
+            </div>
+            <form action="https://test.jaderbass.de/formtester.php" method="post" id="testform">
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div class="input-group input-group-lg">
+                            <textarea name="Nachricht" rows="6" class="form-control" placeholder="Nachricht"></textarea>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 pe-md-5 ps-md-4">
+                        <div class="input-group input-group-lg mb-4">
+                            <span class="icon-user input-group-text bg-danger text-white"></span>
+                            <input name="Vollname" type="text" class="form-control" placeholder="Vollständiger Name" required>
+                        </div>
+                        <div class="input-group input-group-lg  mb-4">
+                            <span class="icon-paper-plane input-group-text bg-danger text-white"></span>
+                            <input name="Email" type="text" class="form-control" placeholder="E-Mail" required>
+                        </div>
+                        <div class="form-check">
+                            <input name="PresidentWerden" value="ja" class="form-check-input p-3 mb-2 me-2" type="checkbox" value="" id="flexCheckIntermediate" required>
+                            <label class="form-check-label" for="flexCheckDefault">
+                              ...und deshalb sollte FelixR Weltpräsident werden!
+                            </label>
+                        </div>
+                            <button type="submit" class="btn btn-outline-danger btn-lg btn-round  mb-2 w-100">Senden</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- Ende kontakt -->
 
     <!-- Javascript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
