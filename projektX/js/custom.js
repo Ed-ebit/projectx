@@ -15,3 +15,7 @@ $(document).ready(function(){
   sidebar.classList.toggle("active-nav");
   container.classList.toggle("active-cont");
 }); */
+
+//  $('.carousel').carousel({
+//    interval: 2000
+//  })

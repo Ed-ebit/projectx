@@ -15,7 +15,7 @@
   }
   
   .my-container {
-    transition: 0.4s;
+    transition: 0.5s;
   }
   
   .active-nav {
@@ -24,8 +24,8 @@
   
   /* for main section */
   .active-cont {
-    margin-left: -180px;
-  }
+    margin-left: 180px;
+  } 
   
   #menu-btn {
     z-index: 1;
@@ -35,10 +35,32 @@
     margin-left: 180px;
   }
 
-  #weristdas {
-    margin-left: 180px;
+  .card-title {
+    min-height: ;
   }
 
-  #features {
-    margin-left: 180px;
-  }
+/* -- Zitate -- */
+
+.carousel-caption {
+  text-shadow: -1px 0 8px black, 0 1px 8px black, 1px 0 8px black, 0 -1px 8px black;
+}
+
+/* -- Meinung --*/
+
+.bg-overlay {
+
+  opacity: 0.4;
+  
+}
+
+.text-carousel {
+  width:150px;
+  height:100px;
+  min-width:150px;
+  min-height:100px;
+  max-width:200px;
+  max-height:100px;
+  overflow:hidden;
+  display:block;
+  border:1px solid red;
+}
