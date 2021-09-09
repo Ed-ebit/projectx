@@ -71,8 +71,8 @@
 
     <!-- Start Wer ist das? -->
 
-    <section id="weristdas" class="position-relative">
-        <div class="container my-container">
+    <section class="position-relative my-container active-cont">
+        <div id="weristdas" class="container-fluid">
             <div class="row">
                 <div class="col-lg-6">
                     <p>
@@ -95,17 +95,17 @@
 
     <!-- Start Features -->
     
-    <section id="features" position="position-relative">
-        <div class="container my-container">
+    <section id="features" class="position-relative my-container active-cont">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col text-center">
                     <h1>Features of Felix</h1>
                 </div>
             </div>
             <div class="row">
-                <div class="col">
+                <div class="col-12 col-md-6 col-lg-3">
                     <div class="card h-100">
-                        <h3 class="card-title"> Keine unnötigen Risiken
+                        <h3 class="card-title text-center"> Keine unnötigen Risiken
                         </h3>
                         <img src="img/elefant.jpg" alt="He is so careful" class="card-img-top img-fluid">
                         <div class="card-body">
@@ -117,9 +117,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-12 col-md-6 col-lg-3">
                     <div class="card h-100">
-                        <h3 class="card-title"> Weiß, wie Kriminelle funktionieren
+                        <h3 class="card-title text-center"> Weiß, wie Kriminelle funktionieren
                         </h3>
                         <img src="img/knight.jpg" alt="Locks up the bad guys" class="card-img-top img-fluid">
                         <div class="card-body">
@@ -132,9 +132,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-12 col-md-6 col-lg-3">
                     <div class="card h-100">
-                        <h3 class="card-title"> Kurze Aufmerksamkeitsspanne
+                        <h3 class="card-title text-center"> Kurze Aufmerksamkeitsspanne
                         </h3>
                         <img src="img/sunset.jpg" alt="He is so careful" class="card-img-top img-fluid">
                         <div class="card-body">
@@ -148,9 +148,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-12 col-md-6 col-lg-3">
                     <div class="card h-100">
-                        <h3 class="card-title"> Simple Heuristik - schnelle Lösungen
+                        <h3 class="card-title text-center"> Simple Heuristik - schnelle Lösungen
                         </h3>
                         <img src="img/writing.jpg" alt="He is so careful" class="card-img-top img-fluid">
                         <div class="card-body">
@@ -170,13 +170,81 @@
         </div>
     </section>
     <!-- Ende Features -->
+
+    <!-- Zitate
+    ============================================================================================= -->
+
+    <!-- Start Zitate -->
+    <section class="position-relative my-container active-cont">
+        <div class="container-fluid">
+            <div class="row text-center">
+                <h1>Seine wichtigsten Zitate</h1>
+            </div>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="15000">
+                <div class="carousel-inner" > 
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/dark-man.jpg" alt="dark man">
+                    <div class="carousel-caption">
+                      <h5>"Witcher 3 ist überbewertet."</h5>
+                      <p>"...die Steuerung ist klunky af für einen Triple-A-Titel"</p>
+                    </div>              
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="img/man-face.jpg" alt="aufregen">
+                    <div class="carousel-caption">
+                        <h5>"Das regt mich schon wieder alles auf hier!"</h5>
+                        <p>- weiß wann gehandelt werden muss</p>
+                    </div>  
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="img/man-lift.jpg" alt="krasser Typ">
+                    <div class="carousel-caption">
+                      <h5>"Sport machen, sonst gibt es Diabetes!"</h5>
+                      <p> - hat das Auge für's Wesentliche</p>
+                    </div>              
+                  </div>
+                </div>    
+            </div>
+        </div>
+    </section>
+
+    <!-- Ende Zitate -->
+
+    <!-- Eure Meinung
+    ============================================================================================= -->
+
+    <!-- Start Eure Meinung -->
+        <section class="position-relative my-container active-cont">
+            <div class="row text-center container-fluid">
+                <h1>Eure Meinung über Felix</h1>
+
+                <div class="carousel slide" data-bs-ride="carousel" data-bs-interval="15000">
+                    <div class="carousel-inner" > 
+                      <div class="carousel-item active">
+                        <div class="text-carousel"></div>
+                        <div class="carousel-caption">
+                          <h5>"Witcher 3 ist überbewertet."</h5>
+                          <p>"...die Steuerung ist klunky af für einen Triple-A-Titel"</p>
+                        </div>              
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    <!-- Ende Eure Meinung -->
+
     <!-- Javascript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
 
-    <!-- Custom Javascript -->
+    <!-- jQuery -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Custom Javascript -->
 
     <script src="js/custom.js"></script>
 </body>
